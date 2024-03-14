@@ -1,0 +1,12 @@
+spring:
+  name: LEARN-SPB
+  port: 8081
+learnspb:
+  openapi:
+    dev-url: localhost:8080/swagger-ui.html
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.boot: TRACE
+    org.springframework.beans: TRACE
+
