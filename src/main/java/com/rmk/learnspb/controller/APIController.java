@@ -1,11 +1,18 @@
 package com.rmk.learnspb.controller;
 
+import com.rmk.learnspb.model.StudentModel;
 import com.rmk.learnspb.service.NameSvc;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 @RestController
 @RequestMapping("/api/v1")
@@ -37,5 +44,23 @@ public class APIController {
         }
 
         return ResponseEntity.ok(msg);
+    }
+
+    @PostMapping(value = "/savestudent")
+    public ResponseEntity<StudentModel> saveStudentData(@RequestBody StudentModel model){
+        log.info(" ID: {}, Name: {} ", model.getStudentId(), model.getFName()+model.getLName());
+        if(model.getStudentId()<10){
+            return ResponseEntity.badRequest().body(null);
+        }
+        //return new ResponseEntity<>(model, HttpStatusCode.valueOf(200));
+        return ResponseEntity.ok(model);
+    }
+
+    @GetMapping(value = "/getfile", produces = {MediaType.APPLICATION_OCTET_STREAM_VALUE})
+    public ResponseEntity<byte[]> getFile() throws IOException {
+
+        return ResponseEntity.ok(
+                Files.readAllBytes(Path.of("/Users/rashmingadhavi/Projects/Learn-JAVA-SPB/learnspb/spb.log"))
+        );
     }
 }
