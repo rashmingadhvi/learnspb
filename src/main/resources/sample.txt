@@ -1,0 +1,207 @@
+
+A passionate IT professional who wears multiple hats of Lead and hands on dev.
+
+HIGHLIGHTS OF QUALIFICATIONS
+
+•	14+ years of development experience in Java related technologies.
+•	Excellent working knowledge in Java based Micro services.
+•	Solid knowledge in PL/SQL & No SQL with industry standard Databases.
+•	Good comprehension in design patterns and java frameworks like Spring Boot, Node JS.
+•	Good experience with troubleshooting and code reviews.
+•	Self-driven, quick learner with excellent interpersonal and communication skills.
+•	Good analytical, critical thinking and decision-making skills. 
+•	Good Experience working with agile projects.
+
+TECHNICAL SKILLS
+
+Java: Java 8, JAXB
+Web: HTML, Java Script, CSS, JSON, Type Script
+Database: Oracle, MS SQL, PostgreSQL 9.2.x, Cassandra 3.x, Mongo DB 4.x
+ORM: Hibernate, iBatis2.0
+Frameworks: Spring 4.0 MVC, Play 2.0, Akka 2.4.x, Spring Boot 2.x, Node JS, Angular JS1, Angular 12.x.x
+Others: Ant, Maven, SBT, MS Project, MS Visio, jQuery, Swagger, Docker, OpenShift, Jenkins, Kafka
+
+EDUCATION
+
+•	Bachelor of Engineering. (Information Technology – S.P. University)		            Jul-2004
+
+ACHIEVEMENTS AND CERTIFICATIONS
+
+•	Professional Scrum Master with 97.5%
+•	SCJP (Sun Certified Java Programmer) with 91%.
+
+
+PROFESSIONAL EXPERIENCE
+
+
+Citi Bank Canada							
+Sr. Full stack developer (March 2022 – Present)
+
+Day @Citi
+•	Develop new features in existing project as per business plans
+•	Design and build new applications / projects
+
+
+
+
+
+
+PROJECTS 
+1.	CJTS (Cross Jurisdictional Travel System)
+Purpose: Employees of Citi bank would travel across globe for business trips. This system pulls trips from vendor applications and provides UI to attest country and business specific rules. The application also caters scheduled reminders for attestation workflow and other functionalities for business and support teams.
+	Technologies: Java, Spring Boot 2.5.x, Angular 12, Oracle, Kafka
+2.	Lending Express
+Purpose: SMEs and Individual clients can apply for loans. The application passes through many phases and has integration with other applications such as Credit Analysis. We publish Kafka messages to Usage Analytics.
+	Technologies: Java, Spring Boot 3.x, React-TS, Mongo, Kafka	
+Bank of Montreal 
+Developer-Expert (Sept 2021 – March 2022)
+
+Day @BMO
+•	Develop new features in existing project as per business plans
+•	Fix production issues and provide support for releases
+•	Design and build new applications / projects 
+
+
+
+
+PROJECTS 
+
+1.	LOPR, PRDR, MA
+Purpose: To design and develop new application for LOPR. Work on existing MA tool and leverage new features as well as bug fixes. Work on existing PRDR project to deliver new features and minor fixes.
+Technologies: MS-SQL, .Net, Java-Spring Boot, MA (Broadridge)  
+
+Citi Bank Canada							
+Sr. Consultant (March 2018 – Sept 2021)
+
+Day @Citi
+•	Design, Develop & Maintain micro-services for contextual recommendation.
+•	Integration with Bloomberg, Kafka, NLP & Heterogeneous data services as per business needs.
+•	Collaborate with teams to sync with planned sprint. Containerize and deploy apps to ECS cluster.
+
+
+
+
+
+
+
+
+PROJECTS 
+
+1.	Contextual Recommendation Platform
+Purpose: To develop a cloud ready set of micro services that will serve integrated chat application used by traders and sales personnel.
+Technologies: Spring boot 1.5.1, React JS, Mongo DB, Java 8, Swagger2, Docker, Jenkins, Open Shift, Kafka
+
+Tech Mahindra & Scotia Bank 					
+Tech Lead (March 2017 – March 2018)							
+
+Day @ Scotia Bank
+•	Design and develop new applications and/or new modules in existing application using standards and best practices
+•	Develop tech design documents as well as DDD (Detailed design document)
+•	Collaborate with team on sprint tasks, implementation detailing and leverage solution to problems.
+•	Collaborate with BA and Business stake holders for demo and requirement refinements
+
+PROJECTS 
+
+1.	THOR Micro services
+Purpose: To develop a cloud ready set of micro services that will replace monolithic
+applications in Scotia GWO segment.
+Technologies: Spring boot 1.5.1, Maven, Angular 4.x, Hibernate5, Java 8, Swagger2, HTML5, CSS3
+
+Tata Consultancy Services & Rogers Communications Inc.
+Sr. Developer (May 2016 – Feb 2017)
+
+Day @ at Rogers
+•	Understand SDS (Solution design specifications)
+•	Handling daily scrum stand ups
+•	Create DDD (Detailed design document) covering the work being done and matching to SDS
+•	Active involvement in SDS review and questionnaire meetings
+•	Implementation of new modules and modification of existing modules in accordance with SDS
+•	Regular Updates to project manager, updates in tracking and build system and communication with offshore team
+•	Run agile scrum stand ups
+
+
+
+
+PROJECTS 
+1.	BSS Portal
+Purpose: To serve Rogers business customers online and enable them to self-manage their accounts and other services. It includes online purchase portal functionalities.
+Technologies: Play 2.x, Akka, Cassandra, Java 8, HTML5, CSS3, Angular JS, Oracle DB, Spring 4.0
+2.	Genesis – Micro services
+Purpose: To serve multiple clients and act as set of micro services on Cloud. Optimized service platform to become robust, scalable and fault tolerant, with caching.
+Technologies: Play 2.x, Akka, Cassandra, Java 8
+
+
+Jibestream Inc.								
+Sr. Software Engineer (Feb 2014- Apr 2016)							
+
+Day @ Jibestream
+•	Develop core product modules using standards and best practices
+•	Develop UI modules using standard-compliant client-side libraries.
+•	Integrate with heterogeneous external data sources
+•	Collaborate with Front end and designers as well as QA
+•	Provide status report to Product manager and immediate supervisor
+•	Active participation in agile meetings and Organization meetings
+•	Being more than a developer; I own tasks and R&D initiatives (e.g., SVG parsing, GeoJSON processing), Leverage solutions to problems and being a key resource.
+•	Participate in hiring junior resources.
+
+PROJECTS 
+
+1.	Jibestream UXM Platform (Software Product)
+Purpose: UXM is an interactive way finding solution from Jibestream. It caters various verticals like Hospitals, Retail, and Transit system. Built on cutting edge technologies like HTML5, CSS3 and Restful Web services.
+Technologies: Jersey JAX-RS, Struts1.0, HTML5, PostgreSQL, Easy UI, Hibernate, JSON, JSP, Servlets, SVG processing, GeoJSON.
+
+
+
+
+Cyberoam Technologies Pvt. Ltd (Now: Sophos Cyberoam) (Dec 2004 - Dec 2013)
+
+Cyberoam is a product-based company delivering a UTM (security appliances). Cyberoam competes with other security products such as SonicWALL and Checkpoint. I served as member of BSS-Automation department which delivered projects supporting the business echo system of Cyberoam.
+
+
+
+
+
+
+Day @ Cyberoam
+
+•	Development of various server side and web-based projects using java and j2ee technologies as well as open source/commercial components.
+•	Develop web modules using standard-compliant client-side libraries.
+•	Collected and documented user requirements and develop logical and physical specifications
+•	Support, maintenance, effort estimation and progress reporting and deployment of ongoing project and initiation of new projects.
+•	Worked as individual as well as with team to manage the projects end to end.
+•	Project co-ordination with internal and cross team and mentoring the junior team members.
+•	Involved in technical interviews process for hiring junior candidates.
+•	Involved in access, testing, trouble shooting and support for various projects.
+•	Participated in downtime planning, infrastructure and tech turn meetings.
+
+PROJECTS (In descending order of complexity)
+
+1.	Registration server for Cyberoam
+•	Purpose: To enhance, secure and maintain core registration process of Cyberoam product to achieve high volume and 99.99% high availability. This application acts as a server and handles thousands of appliances daily and provides various business operations support.
+•	Technologies: Java, JDBC, Servlets, JSON.
+2.	SAP Integration with legacy systems
+•	Purpose: To build robust, scalable and secure interfaces that can easily integrate with SAP and works as bridge between legacy BSS applications and SAP. The interfaces were developed as re-usable web services that support various bi-directional operations between SAP and legacy applications.
+•	Technologies: Java, Jersey API for JAX-RS, Hibernate, JAXB, XML, JSON.
+3.	Point of Sale
+•	Purpose: To build a robust web-based POS application integrated with POS hardware to help business of liquor chain in USA.
+•	Technologies: iBatis, MS SQL server, JSP, Servlets, jQuery, Quartz, HTML, Java Script.
+4.	Application Data Center management
+•	Purpose: To create and maintain application servers for high availabilities of applications and uptime with round the clock support for any failures.
+•	Involve self in understanding of Application replication, backup and maintenance activities. 
+•	Establish DR servers of production applications and manage the deployment in production. 
+•	Handle any changes in Application deployment and infrastructure.
+
+
+
+
+
+
+
+WORK INNOVATION– Retail Desk (Freelance work) (Oct 2012 – Dec 2013)
+
+•	Product: Retail Desk (www.tabletpos.in)
+•	Conceptualize product and prepare abstract technical (Database + application) design.
+•	Technically design product website and CRM integration.
+•	Study competitive products and new feature conceptualization in product.
+•	Promote the product on websites, meetings and demonstrations to clients and email communications.
+Understanding of customized requirements from clients, offering customers the suitable solution and transferring customizations to development team.

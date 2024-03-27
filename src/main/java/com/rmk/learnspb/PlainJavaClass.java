@@ -1,9 +1,8 @@
 package com.rmk.learnspb;
 
 
-import com.rmk.learnspb.service.NameSvc;
-import com.rmk.learnspb.service.NameSvcImpl;
-import com.rmk.learnspb.service.NameSvcImpl2;
+import com.rmk.learnspb.service.*;
+import com.rmk.learnspb.util.ConcurrentWorkUtil;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -68,6 +67,47 @@ public class PlainJavaClass {
         SingleTonClass single2 = SingleTonClass.getInstance();
         log.info(single2.toString());
 
+
+        log.info("Main Thread Name: {}", Thread.currentThread().getName());
+        Thread.currentThread().setPriority(8);
+
+        log.info("Priority: {}", Thread.currentThread().getPriority());
+        for(int i=0;i<5;++i){
+            log.info("Main Thread");
+        }
+
+        Thread t1 = new Thread(
+
+               () -> {
+
+                for(int i=0;i<10;++i){
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                    log.info("Child Thread - {}", Thread.currentThread().getName());
+                }
+
+
+
+        }
+
+        );
+
+        t1.setName("T1");
+        t1.start();
+        t1.setPriority(1);
+
+
+
+
+        Thread t2 = new Thread(new ConcurrentWorkUtil());
+        t2.start();
+
+        Runnable runnable = ()->   log.info("This is runnable thread");
+
+        new Thread(runnable).start();
 
 
     }

@@ -1,6 +1,7 @@
 package com.rmk.learnspb.controller;
 
 import com.rmk.learnspb.model.StudentModel;
+import com.rmk.learnspb.service.ConcurrentSvc;
 import com.rmk.learnspb.service.NameSvc;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,8 @@ public class APIController {
     @Autowired
      NameSvc NameSvcImpl2;
 
+    @Autowired
+    ConcurrentSvc concurrentSvc;
 
 @Autowired
     @Qualifier(value = "one")
@@ -62,5 +65,16 @@ public class APIController {
         return ResponseEntity.ok(
                 Files.readAllBytes(Path.of("/Users/rashmingadhavi/Projects/Learn-JAVA-SPB/learnspb/spb.log"))
         );
+    }
+
+    @GetMapping("/testexec/{id}")
+    public ResponseEntity<Void> doExecuteWork(@PathVariable int id){
+        if(id==1){
+            concurrentSvc.doWork();
+        }else{
+            concurrentSvc.doTask();
+        }
+
+        return ResponseEntity.ok(null);
     }
 }
